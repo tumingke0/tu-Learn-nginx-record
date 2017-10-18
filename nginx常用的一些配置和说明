@@ -1,3 +1,6 @@
+来源网站：
+https://demo.yeskn.com/posts/nginx
+
 预定义的一些变量： 
 
 $host：当前请求的域名，如git.yeskn.com
@@ -22,10 +25,12 @@ $document_root：D:\nginx/html
 $request_filename：D:\nginx/html/test1/test2/test.php
 
 
-来源网站：
-https://demo.yeskn.com/posts/nginx
 
 
+
+
+
+来源网站：http://www.cnblogs.com/feiyuanxing/p/4668818.html
 语法规则： location [=|~|~*|^~] /uri/ { … }
 
 = 开头表示精确匹配
