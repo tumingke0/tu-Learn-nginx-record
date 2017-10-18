@@ -1,0 +1,25 @@
+预定义的一些变量： 
+$host：当前请求的域名，如git.yeskn.com
+
+redirect – 返回临时重定向的HTTP状态302
+
+permanent – 返回永久重定向的HTTP状态301
+
+~ 为区分大小写匹配; !~为区分大小写不匹配
+
+~* 为不区分大小写匹配;!~为不区分大小写不匹配
+
+-f和!-f用来判断是否存在文件 -d和!-d用来判断是否存在目录 -e和!-e用来判断是否存在文件或目录 -x和!-x用来判断文件是否可执行
+
+ReWrite表达式中可以用作判断的全局变量，示例如下： 
+例：http://localhost:88/test1/test2/test.php 
+$host：localhost 
+$server_port：88 
+$request_uri：http://localhost:88/test1/test2/test.php 
+$document_uri：/test1/test2/test.php 
+$document_root：D:\nginx/html 
+$request_filename：D:\nginx/html/test1/test2/test.php
+
+
+来源网站：
+https://demo.yeskn.com/posts/nginx
